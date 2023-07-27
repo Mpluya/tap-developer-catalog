@@ -1,0 +1,8 @@
+site_name: 'Getting Started on TAP'
+
+nav:
+  - Home: index.md
+  - Installing CLIs: install-cli.md
+
+plugins:
+  - techdocs-core

@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: developer-getting-started
+  description: A sample catalog to help developers get started with TAP
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://www.example.com
+      title: 'TAP Information'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: my-platform-team
+  system: TAP
