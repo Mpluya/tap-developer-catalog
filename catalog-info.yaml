@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Domain
 metadata:
   name: developer-getting-started
   description: A sample catalog to help developers get started with TAP
@@ -10,7 +10,5 @@ metadata:
       title: 'TAP Information'
       icon: locallibrary
 spec:
-  type: service
-  lifecycle: experimental
   owner: my-platform-team
-  system: TAP
+
