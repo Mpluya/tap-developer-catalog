@@ -1,6 +1,11 @@
-# How to add new documentation
+# Installing Tanzu CLI
 
-To get started adding documentation to your system, please see [this documentation](https://backstage.io/docs/features/techdocs/creating-and-publishing#manually-add-documentation-setup-to-already-existing-repository) for more information.
+To get started with TAP follow [this documentation](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/1.5/tap/install-tanzu-cli.html) for more information on how to install the Tanzu CLI.
 
-# How to write markdown syntax
-To create beautiful documentation with markdown, please see [this link](https://www.markdownguide.org/cheat-sheet/) for details.
+# Other Helpful CLI's
+
+* kpack - https://github.com/vmware-tanzu/kpack-cli
+* kapp - https://carvel.dev/kapp/docs/v0.49.0/install/
+* kctrl - https://carvel.dev/blog/kctrl-release-blog/
+* tree - https://github.com/ahmetb/kubectl-tree
+* cosign - https://docs.sigstore.dev/cosign/installation
