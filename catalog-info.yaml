@@ -5,7 +5,7 @@ metadata:
   description: A sample catalog to help developers get started with TAP
   annotations:
     'backstage.io/techdocs-ref': dir:.
-    'backstage.tanzu.vmware.com/user.default.mpluya': 'catalog.entities.read'
+    'backstage.tanzu.vmware.com/user.default.rabayta': 'catalog.entities.read'
   links:
     - url: https://www.example.com
       title: 'TAP Information'
