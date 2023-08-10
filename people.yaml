@@ -78,7 +78,7 @@ metadata:
 spec:
   type: team
   profile:
-    displayName: team-a
+    displayName: team-b
     email: team-b@example.com
     picture: https://assetsio.reedpopcdn.com/guardians_of_the_galaxy_4PY7Vj8.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp
   children: []
