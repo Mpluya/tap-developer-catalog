@@ -39,10 +39,10 @@ metadata:
   description: A sample catalog to help developers get started with TAP
   annotations:
     'backstage.io/techdocs-ref': dir:.
-    'backstage.tanzu.vmware.com/group.default.team-a': 'catalog.entity.read'
+    'backstage.tanzu.vmware.com/user.default.rabeyta': 'catalog.entity.read'
   links:
     - url: https://www.example.com
       title: 'TAP Information'
       icon: locallibrary
 spec:
-  owner: team-a
+  owner: rabeyta
