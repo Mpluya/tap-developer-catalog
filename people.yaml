@@ -27,8 +27,8 @@ metadata:
 spec:
   profile:
     displayName: Robert Abeyta
-    email: rabeyta@gmail.com
-    picture: https://pyxis.nymag.com/v1/imgs/0c7/a20/d3df28fbd99d28c56220b6f34f0fbb9da9-michael-cera-barbie.jpg
+    email: arobert@vmware.com
+    picture: https://ringsideintel.com/wp-content/uploads/2023/05/Fw6qDb-X0AYbWGH.jpeg
   memberOf: [team-a, root]
 ---
 apiVersion: backstage.io/v1alpha1
