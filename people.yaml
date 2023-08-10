@@ -1,0 +1,60 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: aaron
+spec:
+  profile:
+    displayName: Aaron Ullom
+    email: uaaron@vmware.com
+    picture: https://pyxis.nymag.com/v1/imgs/de9/98f/270f604ba6bcc9df5dc6b2d01e0a6fb2d4-barbie-ken.1x.rsquare.w1400.jpg
+  memberOf: [team-a, root]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jeremy
+spec:
+  profile:
+    displayName: Jeremy Castle
+    email: castleje@vmware.com
+    picture: https://pyxis.nymag.com/v1/imgs/0c7/a20/d3df28fbd99d28c56220b6f34f0fbb9da9-michael-cera-barbie.jpg
+  memberOf: [team-b, root]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: root
+  description: Basic Root 
+spec:
+  type: root
+  profile:
+    displayName: root
+    email: groot@root.com
+    picture: https://lumiere-a.akamaihd.net/v1/images/102_gza1510_comp_v002_c5fae827.jpeg?region=0%2C0%2C3840%2C2160
+  members: [aaron, jeremy]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-a
+  description: I am TEAM A
+spec:
+  type: team
+  profile:
+    displayName: team-a
+    email: team-a@example.com
+    picture:  https://cdn.vox-cdn.com/thumbor/q1VhYtuVNtHtWRCb2icgjPzX3Sw=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15969338/surprise_marvel_releases_a_new_full_trailer_and_poster_for_avengers_endgame_social.jpg
+  members: [aaron]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-b
+  description: I am TEAM B
+spec:
+  type: team
+  profile:
+    displayName: team-a
+    email: team-b@example.com
+    picture: https://assetsio.reedpopcdn.com/guardians_of_the_galaxy_4PY7Vj8.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp
+  members: [jeremy]
