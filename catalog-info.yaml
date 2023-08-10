@@ -23,7 +23,6 @@ metadata:
   annotations:
     'backstage.io/techdocs-ref': dir:.
     'backstage.tanzu.vmware.com/group.default.team-b': 'catalog.entity.read,catalog.entity.update,catalog.entity.delete'
-    'backstage.tanzu.vmware.com/group.default.root': 'catalog.entity.read'
   links:
     - url: https://www.example.com
       title: 'TAP Information'
@@ -41,7 +40,6 @@ metadata:
   annotations:
     'backstage.io/techdocs-ref': dir:.
     'backstage.tanzu.vmware.com/user.default.rabeyta': 'catalog.entity.read'
-    'backstage.tanzu.vmware.com/group.default.root': 'catalog.entity.read'
   links:
     - url: https://www.example.com
       title: 'TAP Information'
