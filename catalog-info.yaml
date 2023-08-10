@@ -36,7 +36,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: team-b-documentation
+  name: team-a-documentation
   description: A sample catalog to help developers get started with TAP
   annotations:
     'backstage.io/techdocs-ref': dir:.
