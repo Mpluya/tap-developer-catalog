@@ -16,7 +16,7 @@ metadata:
 spec:
   profile:
     displayName: Jeremy Castle
-    email: castleje@vmware.com
+    email: x95castle1@yahoo.com
     picture: https://pyxis.nymag.com/v1/imgs/0c7/a20/d3df28fbd99d28c56220b6f34f0fbb9da9-michael-cera-barbie.jpg
   memberOf: [team-b, root]
 ---
@@ -44,6 +44,7 @@ spec:
     displayName: team-a
     email: team-a@example.com
     picture:  https://cdn.vox-cdn.com/thumbor/q1VhYtuVNtHtWRCb2icgjPzX3Sw=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15969338/surprise_marvel_releases_a_new_full_trailer_and_poster_for_avengers_endgame_social.jpg
+  children: []
   members: [aaron]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -57,4 +58,5 @@ spec:
     displayName: team-a
     email: team-b@example.com
     picture: https://assetsio.reedpopcdn.com/guardians_of_the_galaxy_4PY7Vj8.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp
+  children: []
   members: [jeremy]
