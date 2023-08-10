@@ -32,6 +32,17 @@ spec:
   memberOf: [team-a, root]
 ---
 apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: maelarge
+spec:
+  profile:
+    displayName: Mae Large
+    email: maelarge@gmail.com
+    picture: https://pyxis.nymag.com/v1/imgs/0c7/a20/d3df28fbd99d28c56220b6f34f0fbb9da9-michael-cera-barbie.jpg
+  memberOf: [team-a, root]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: root
@@ -43,7 +54,7 @@ spec:
     email: groot@root.com
     picture: https://lumiere-a.akamaihd.net/v1/images/102_gza1510_comp_v002_c5fae827.jpeg?region=0%2C0%2C3840%2C2160
   children: []  
-  members: [aullom1, x95castle1, rabeyta]
+  members: [aullom1, x95castle1, rabeyta, maelarge]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -57,7 +68,7 @@ spec:
     email: team-a@example.com
     picture:  https://cdn.vox-cdn.com/thumbor/q1VhYtuVNtHtWRCb2icgjPzX3Sw=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15969338/surprise_marvel_releases_a_new_full_trailer_and_poster_for_avengers_endgame_social.jpg
   children: []
-  members: [aullom1, rabeyta]
+  members: [aullom1, rabeyta, maelarge]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
