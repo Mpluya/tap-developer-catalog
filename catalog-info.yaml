@@ -5,11 +5,46 @@ metadata:
   description: A sample catalog to help developers get started with TAP
   annotations:
     'backstage.io/techdocs-ref': dir:.
-    'backstage.tanzu.vmware.com/user.default.rabeyta': 'catalog.entity.read,catalog.entity.update,catalog.entity.delete'
+    'backstage.tanzu.vmware.com/group.default.root': 'catalog.entity.read'
   links:
     - url: https://www.example.com
       title: 'TAP Information'
       icon: locallibrary
 spec:
-  owner: my-platform-team
+  owner: root
 
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: team-b-documentation
+  description: A sample catalog to help developers get started with TAP
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+    'backstage.tanzu.vmware.com/group.default.team-b': 'catalog.entity.read,catalog.entity.update,catalog.entity.delete'
+    'backstage.tanzu.vmware.com/group.default.root': 'catalog.entity.read'
+  links:
+    - url: https://www.example.com
+      title: 'TAP Information'
+      icon: locallibrary
+spec:
+  owner: team-b
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: team-b-documentation
+  description: A sample catalog to help developers get started with TAP
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+    'backstage.tanzu.vmware.com/group.default.team-a': 'catalog.entity.read,catalog.entity.update,catalog.entity.delete'
+    'backstage.tanzu.vmware.com/group.default.root': 'catalog.entity.read'
+  links:
+    - url: https://www.example.com
+      title: 'TAP Information'
+      icon: locallibrary
+spec:
+  owner: team-a
