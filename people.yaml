@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: aaron
+  name: aullom1
 spec:
   profile:
     displayName: Aaron Ullom
@@ -12,7 +12,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: jeremy
+  name: x95castle1
 spec:
   profile:
     displayName: Jeremy Castle
@@ -43,7 +43,7 @@ spec:
     email: groot@root.com
     picture: https://lumiere-a.akamaihd.net/v1/images/102_gza1510_comp_v002_c5fae827.jpeg?region=0%2C0%2C3840%2C2160
   children: []  
-  members: [aaron, jeremy, robert]
+  members: [aaron, x95castle1, robert]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -71,4 +71,4 @@ spec:
     email: team-b@example.com
     picture: https://assetsio.reedpopcdn.com/guardians_of_the_galaxy_4PY7Vj8.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp
   children: []
-  members: [jeremy]
+  members: [x95castle1]
