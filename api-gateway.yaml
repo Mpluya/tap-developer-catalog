@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-gateway
+  namespace: mae
+  description: Mae application gateway
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=api-gateway'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
