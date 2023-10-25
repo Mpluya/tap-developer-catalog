@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: api-gateway
-  namespace: mae
-  description: Mae application gateway
+  description: Success application gateway
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=api-gateway'
 spec:
