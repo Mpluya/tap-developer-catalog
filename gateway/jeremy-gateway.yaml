@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: api-gateway
+  name: spring-cloud-gateway
   namespace: jeremy
   description: Castle application gateway
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=api-gateway'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-cloud-gateway'
 spec:
   type: service
   lifecycle: experimental
